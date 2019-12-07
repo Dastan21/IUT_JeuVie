@@ -109,7 +109,7 @@ public class JeuVie {
     while (true) {
       StdDraw.clear(StdDraw.DARK_GRAY);
       StdDraw.setPenColor(120, 120, 120);
-      StdDraw.text(-0.1, N-0.7, "Gen: " + nbGen);
+      StdDraw.text(0.06*N, 0.05*N, "Gen: " + nbGen);
       jeu.affichCellules();
       jeu.nouvelleGen();
       nbGen++;
